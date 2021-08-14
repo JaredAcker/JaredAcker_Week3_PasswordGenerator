@@ -66,4 +66,10 @@ function generatePassword () {
 
   };
 
+// user is alerted if criteria isn't selected
+  if (!confirmLower && !confirmUpper && !confirmNumber && !confirmSpecial) {
+    userChoices = alert("Choose criteria");
+  
+  } else if ()
+
 }
