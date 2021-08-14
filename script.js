@@ -63,4 +63,7 @@ function generatePassword () {
     console.log("Number" + confirmNumber);
     confirmSpecial = confirm("Will this contain special characters?");
     console.log("Special Characters" + confirmSpecial);
-  }
+
+  };
+
+}
