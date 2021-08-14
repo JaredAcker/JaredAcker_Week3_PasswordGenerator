@@ -70,6 +70,16 @@ function generatePassword () {
   if (!confirmLower && !confirmUpper && !confirmNumber && !confirmSpecial) {
     userChoices = alert("Choose criteria");
   
-  } else if ()
+  } else if (confirmLower && confirmUpper && confirmNumber && confirmSpecial) {
+    userChoices = lowerCase.concat(upperCase, numbers, special);
+    console.log(userChoices);
+  }
+
+  function writePassword() {
+    var password = generatePassword();
+    var passwordText = document.querySelector("#password");
+
+    passwordText.value= password;
+  }
 
 }
