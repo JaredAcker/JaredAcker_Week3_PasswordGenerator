@@ -53,4 +53,14 @@ function generatePassword () {
     passwordLength = prompt ("Choose between 8-128");
     console.log("Password length" + passwordLength);
 
+// confirming in the prompt that the password will contain the variables for lower and upper case letters, numbers and special characters.
+  } else {
+    confirmLower = confirm("Will this contain lower case letters?");
+    console.log("Lower Case" + confirmLower);
+    confirmUpper = confirm("Will this contain upper case letters?");
+    console.log("Upper Case" + confirmUpper);
+    confirmNumber = confirm("Will this contain numbers?");
+    console.log("Number" + confirmNumber);
+    confirmSpecial = confirm("Will this contain special characters?");
+    console.log("Special Characters" + confirmSpecial);
   }
