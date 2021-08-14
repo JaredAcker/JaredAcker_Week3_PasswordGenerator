@@ -44,7 +44,7 @@ generateBtn.addEventListener("click", writePassword);
 function generatePassword () {
   passwordLength = prompt("How many characters is your password going to be? 8-128");
 
-  console.log("Password Length") + passwordLength);
+  console.log("Password Length" + passwordLength);
 
   if(!passwordLength) {
     alert("Required value");
