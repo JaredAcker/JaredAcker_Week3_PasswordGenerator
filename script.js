@@ -86,4 +86,9 @@ for (var i = 0; i < passwordLength; i++) {
     console.log(allChoices);
 }
 
+// generating password for the user. 
+var password = passwordBlank.join("");
+console.log("Your password is:" + password);
+return password;
+
 }
