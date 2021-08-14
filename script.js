@@ -75,5 +75,7 @@ function generatePassword () {
     console.log(userChoices);
   }
 
+// creating variable for the length of the password
+var passwordBlank = [];
 
 }
